@@ -1,0 +1,40 @@
+.contenido {
+  width: 80%;
+  max-width: 120rem;
+  margin: 0 auto;
+  
+}
+.titulo {
+  color: var(--primary);
+  text-align: center;
+  width: 90%;
+  margin: 2rem auto;
+}
+.contenido img {
+  width: 90%;
+  margin-bottom: 2rem;
+}
+.content {
+    width: 95%;
+    margin: 1rem auto;
+    padding: 0;
+    font-weight: bold;
+}
+.fecha {
+    color: var(--primary);
+    
+    
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fechaBoton {
+    margin: 0 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+    
+    
+}

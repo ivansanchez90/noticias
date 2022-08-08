@@ -1,0 +1,42 @@
+.heading {
+  font-size: 3rem;
+  text-align: center;
+  padding: 3rem;
+  background-color: aquamarine;
+}
+.grid {
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+}
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.grid p {
+  grid-column: 1/4;
+}
+.spinner {
+  grid-column: 1/4;
+}
+.copyright {
+  font-size: 2.8rem;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  background-color: var(--primary);
+  padding: 3rem;
+  margin: 0 auto;
+  left: 1px;
+}
+.contPrinc {
+  min-height: 54.2vh;
+}
+

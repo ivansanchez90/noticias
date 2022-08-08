@@ -1,0 +1,69 @@
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.displaySearch {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.btnFalse {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: block;
+  background-color: var(--primary);
+  text-transform: uppercase;
+  padding: 1rem;
+  border: none;
+  color: var(--blanco);
+  font-weight: 700;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+.contenido {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.buscador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btnTrue {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: block;
+  background-color: rgb(194, 192, 192);
+  text-transform: uppercase;
+  padding: 1rem;
+  border: none;
+  color: var(--blanco);
+  font-weight: 700;
+}
+
+.paginado {
+    margin-top: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.paginado input[type="button"] {
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid black;
+    transition: all .2s;
+}
+
+.paginado input[type="button"]:hover {
+    color: black;
+    background-color: var(--primary);
+    border: 2px solid white;
+    transform: scale(1.5)
+}
