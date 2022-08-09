@@ -42,4 +42,3 @@ const NoticiaDetail = () => {
 }
 
 export default NoticiaDetail
-export {resetState}

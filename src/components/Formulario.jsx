@@ -88,6 +88,3 @@ const Formulario = () => {
 };
 
 export default Formulario;
-export {
-  handleBoton
-}
